@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aioyhsm"
+version = "0.1.0"
+description = ""
+authors = ["Jörn Heissler <nosuchaddress@joern-heissler.de>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cryptography = "^3.3.1"
+httpx = "^0.16.1"
+trio = "^0.17.0"
+anyio = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 96
